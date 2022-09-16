@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas | Dolar - Euro - Bitcoin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+            Descubra o valor em Dolar US$, Euro € e Bitcoin ₿.
+            <br>
+        <div class="icons">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/us-dollar-circled--v1.png" alt="icone dolar" />
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/euro-pound-exchange.png" alt="icone euro" />
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/bitcoin.png" alt="icone bitcoin" />
+        </div>
+        </p>
+
+        <label for="moeda">Insira o valor em Real (R$): </label><br>
+        <input type="number" id="valor" size="2" placeholder="Digite um número" /><br>
+        <button type="submit" onclick="ConverterDolar()"><img
+                src="https://img.icons8.com/ios-filled/20/000000/us-dollar-circled--v1.png" alt="icone dolar" />
+            Converter Dolar</button>
+        <button type="submit" onclick="ConverterEuro()"><img
+                src="https://img.icons8.com/ios-filled/20/000000/euro-pound-exchange.png" alt="icone euro" /> Converter
+            Euro</button>
+        <button type="submit" onclick="ConverterBitcoin()"><img
+                src="https://img.icons8.com/ios-filled/20/000000/bitcoin.png" alt="icone bitcoin" /> Converter
+            Bitcoin</button>
+
+        <div class="resultado" id="valorConvertido">
+
+        </div>
+    </div>
+
+<footer>
+    <p>Coded by Aline Santos Sanches</p>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

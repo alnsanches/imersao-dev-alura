@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+button {
+    background-color: yellow;
+    font-weight: 700;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container-calculadora {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.calculando {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(83, 79, 79);
+    border-radius: 6px;
+    left: 50%;
+    border-top: 12px solid yellowgreen;
+}
+
+#nota {
+    font-size: 25px;
+}
+
+#status {
+    font-size: 38px;
+}
+
+footer{
+    margin-top: 180px;
+    font-size: 13px;
+}
+
+span {
+    color: rgb(132, 132, 182);
+}

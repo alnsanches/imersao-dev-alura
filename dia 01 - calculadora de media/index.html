@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-geral">
+        <h1>Calculadora de média</h1>
+        <h4>Descubra sua média anual com base nas suas notas bimestrais.</h4>
+        <div class="inputs">
+            <input type="number" name="nota1" id="nota1" max="10" placeholder="Nota 1º Bimestre">
+            <input type="number" name="nota2" id="nota2" max="10" placeholder="Nota 2º Bimestre">
+            <input type="number" name="nota3" id="nota3" max="10" placeholder="Nota 3º Bimestre">
+            <input type="number" name="nota4" id="nota4" max="10" placeholder="Nota 4º Bimestre">
+        </div>
+
+        <button type="submit" onclick="calcular()">Calcular Média</button>
+
+        <div class="container-calculadora">
+            <div class="calculando">
+                <p>Veja seu resultado:</p>
+                <p class="nota" id="nota"></p>
+                <p class="status" id="status"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Coded by <span>Aline Santos Sanches</span>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
